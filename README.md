@@ -5,7 +5,7 @@ This is an extension for developers who want to probe the insides of the webui.
 Replace bits here and there without waiting those few painfully slow seconds restarting the webui every time you change a line of code.
 
 > [!CAUTION]
-> Don't use in your production environment as things are prone to break during development/testing.
+> Remember to unload the extension and restart the webui before running in production.
 
 # How it works
 Create a python file or use the existing `test_playground.py` to write your test code.
