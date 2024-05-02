@@ -40,6 +40,9 @@ Utilize the `restore` function to revert to the old behavior without having to r
 
 Provide the module, And current function you wish to restore.
 ```py
+import modules.text_generation
+from modules.text_generation import generate_reply_HF, generate_reply_custom
+
 restore(modules.text_generation, generate_reply_HF)
 restore(modules.text_generation, generate_reply_custom)
 ```
